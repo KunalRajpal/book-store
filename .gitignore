@@ -1,0 +1,55 @@
+# Ignore compiled Go binary
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore Go build cache
+*.cache
+
+# Ignore IDE and editor-specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*~
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignore binary files and assets
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.ico
+*.woff
+*.woff2
+*.ttf
+*.eot
+*.svg
+*.map
+
+# Ignore compiled JavaScript and CSS files
+/dist/
+/node_modules/
+
+# Ignore environment configuration files
+.env
+
+# Ignore any generated files or build directories
+/bin/
+/build/
+
+# Ignore executables (for compiled Go applications)
+*.out
+
+# Ignore logs
+*.log
+*.log.*

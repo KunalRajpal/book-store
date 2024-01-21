@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Bookstore Management</h1>
+    </header>
+
+    <!-- Message/Notification Area -->
+    <div id="message"></div>
+
+    <!-- Book List Display -->
+    <section>
+        <h2>Available Books</h2>
+        <div id="books">
+            <!-- Books will be dynamically loaded here -->
+        </div>
+    </section>
+
+    <!-- Form for Adding/Updating Books -->
+    <section>
+        <h2 id="form-title">Add New Book</h2>
+        <form id="book-form">
+            <input type="hidden" id="bookId">
+            <div>
+                <label for="name">Book Name:</label>
+                <input type="text" id="name" placeholder="Book Name" required>
+            </div>
+            <div>
+                <label for="author">Author:</label>
+                <input type="text" id="author" placeholder="Author" required>
+            </div>
+            <div>
+                <label for="publication">Publication:</label>
+                <input type="text" id="publication" placeholder="Publication" required>
+            </div>
+            <button type="submit">Submit</button>
+            <button type="button" id="cancel-update" style="display: none;">Cancel Update</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bookstore</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
